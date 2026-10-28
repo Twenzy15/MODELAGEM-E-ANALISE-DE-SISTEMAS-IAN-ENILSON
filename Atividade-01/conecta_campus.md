@@ -28,8 +28,8 @@
 * **Quais técnicas poderiam ser utilizadas para descobrir suas necessidades?**
   1. **Questionários / Formulários online:** Ótimo para aplicar com os alunos e pegar uma quantidade grande de respostas sobre dores de usabilidade e rotina.
   2. **Entrevistas semiestruturadas:** Conversar diretamente com representantes da coordenação e alguns professores para entender o fluxo de publicação de notas e conteúdos.
-  3. **Workshops de Requisitos / Group Meetings:** Reuniões rápidas de alinhamento entre a equipe de desenvolvimento e os professores/coordenação para priorizar o que entra na primeira versão.
-  4. **Observação direta (Sombra):** Acompanhar um professor tentando postar um material no sistema atual para ver na prática onde estão os gargalos.
+  3. **Workshops de Requisitos / Reuniões em grupo:** Reuniões rápidas de alinhamento entre a equipe de desenvolvimento e os professores/coordenação para priorizar o que entra na primeira versão.
+  4. **Observação:** Acompanhar um professor tentando postar um material no sistema atual para ver na prática onde estão os gargalos.
 
 ---
 
@@ -44,8 +44,8 @@
 * **RF06 (Bônus):** O sistema deve permitir que a coordenação cadastre e divulgue eventos acadêmicos na plataforma.
 
 ### Requisitos Não Funcionais (RNF)
-* **RNF01 (Desempenho):** As páginas de consulta (como notas e horários) devem carregar em no máximo 2 segundos sob condições normais de rede.
-* **RNF02 (Usabilidade):** O sistema deve ter uma interface responsiva (adaptada para celular e computador) e permitir que o aluno encontre suas notas em até 3 cliques a partir da tela inicial.
+* **RNF01 (Desempenho):** As páginas de consulta devem carregar em no máximo 2 segundos sob condições normais de rede.
+* **RNF02 (Usabilidade):** O sistema deve ter uma interface responsiva e permitir que o aluno encontre suas notas em até 3 cliques a partir da tela inicial.
 * **RNF03 (Segurança):** O sistema deve criptografar senhas no banco de dados e encerrar a sessão do usuário após 15 minutos de inatividade.
 
 ---
@@ -53,7 +53,7 @@
 ## 4. Negociação (Matriz MoSCoW)
 
 * **Must Have (Indispensável para o MVP / Lançamento):**
-  * Autenticação e login seguro de usuários (alunos, professores, coordenação).
+  * Autenticação e login seguro de usuários.
   * Consulta de notas e frequências pelos alunos.
   * Visualização da grade horária pelos alunos.
   * Publicação de materiais e avisos por parte dos professores.
