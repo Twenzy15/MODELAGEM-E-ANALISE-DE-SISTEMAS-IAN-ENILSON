@@ -1,7 +1,7 @@
 # Resolução do Estudo de Caso — Sistema PetCare
 
 **Disciplina:** Engenharia de Requisitos / Análise de Sistemas  
-**Aluno:** \[Seu Nome Aqui\]  
+**Aluno:** Ian Enilson dos Santos Silva 
 **Data:** 28 de Outubro de 2026  
 
 ---
@@ -43,7 +43,7 @@
 
 * **Must Have (Obrigatório para o sistema funcionar):**
   * Cadastro de tutores, animais e veterinários.
-  * Agendamento e cancelamento de consultas (Tutor e Recepção).
+  * Agendamento e cancelamento de consultas.
   * Prontuário eletrônico para registro de diagnósticos, vacinas e tratamentos.
   * Login e controle de acesso por perfil de usuário.
 
@@ -68,8 +68,6 @@ Transformando frases subjetivas em critérios testáveis:
 * **Em vez de "O sistema deve ser rápido":**
   * *Requisito:* "O sistema deve processar a confirmação de agendamento e a abertura de prontuários em no máximo 2 segundos sob conexão padrão de internet."
 
-* **Em vez de "O sistema deve ser seguro":**
-  * *Requisito:* "O sistema deve exigir autenticação por e-mail e senha, encerrar a sessão automaticamente após 10 minutos de inatividade e permitir que cada tipo de usuário acesse apenas as telas permitidas ao seu perfil."
 
 * **Em vez de "O sistema deve ser muito fácil de usar":**
   * *Requisito:* "Um tutor novo deve conseguir concluir o agendamento de uma consulta em menos de 2 minutos no primeiro acesso, sem necessitar de suporte ou instrução prévia."
@@ -80,13 +78,13 @@ Transformando frases subjetivas em critérios testáveis:
 
 Para confirmar que os requisitos atendem ao que a clínica e os clientes realmente precisam antes de começar a codificar, serão adotadas as seguintes estratégias:
 
-1. **Protótipos de Tela (Telas Desenhadas no Figma):** Apresentar a navegação visual das telas para o proprietário, recepcionistas e veterinários, simulação passo a passo dos agendamentos e cadastros para checar a usabilidade.
+1. **Protótipos de Tela:** Apresentar a navegação visual das telas para o proprietário, recepcionistas e veterinários, simulação passo a passo dos agendamentos e cadastros para checar a usabilidade.
 2. **Revisão da Documentação:** Fazer uma leitura acompanhada do documento de requisitos com o gerente e com a equipe médica para ajustar termos técnicos ou faltas de informação.
-3. **Listas de Verificação (Checklist):** Avaliar se cada requisito listado é realmente necessário, viável em 4 meses e se pode ser testado após a construção.
+3. **Listas de Verificação:** Avaliar se cada requisito listado é realmente necessário, viável em 4 meses e se pode ser testado após a construção.
 
 ---
 
-## 6. Desafio: Escolha das 5 Funcionalidades Essenciais para o MVP (Prazo de 4 Meses e Orçamento Limitado)
+## 6. Escolha das 5 Funcionalidades Essenciais para o MVP (Prazo de 4 Meses e Orçamento Limitado)
 
 Caso seja necessário escolher estritamente **5 funcionalidades principais** para a primeira versão, a seleção priorizará o fluxo completo de atendimento e operação da clínica:
 
