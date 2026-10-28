@@ -1,7 +1,7 @@
 # Resolução do Estudo de Caso — Conecta Campus
 
 **Disciplina:** Engenharia de Requisitos / Análise de Sistemas  
-**Aluno:** [Seu Nome Aqui]  
+**Aluno:** Ian Enilson dos Santos Silva  
 **Data:** 28 de Outubro de 2026  
 
 ---
