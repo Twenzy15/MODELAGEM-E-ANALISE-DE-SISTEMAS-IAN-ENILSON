@@ -79,8 +79,6 @@ Transformando termos genéricos em requisitos mensuráveis:
 * **Vago:** "O aplicativo deve ser rápido."  
   * **Especificado:** "O tempo de resposta do sistema para o carregamento da tela de notas e horários não deve ultrapassar 2 segundos para 95% das requisições simultâneas."
 
-* **Vago:** "O aplicativo deve ser seguro."  
-  * **Especificado:** "O acesso às funcionalidades internas exige autenticação via usuário e senha com hash SHA-256 no banco de dados, além de suporte a protocolo HTTPS com certificado TLS 1.3 em todas as comunicações."
 
 * **Vago:** "O aplicativo deve ser fácil de usar."  
   * **Especificado:** "Um usuário novo (aluno ou professor) deve ser capaz de realizar a consulta de notas ou publicação de um aviso em no máximo 3 cliques sem necessidade de treinamento prévio, alcançando taxa de sucesso de pelo menos 90% em testes de usabilidade."
@@ -91,6 +89,6 @@ Transformando termos genéricos em requisitos mensuráveis:
 
 Para garantir que o levantamento reflete o que os usuários realmente precisam, a equipe pode adotar as seguintes estratégias:
 
-1. **Protótipos de Alta/Média Fidelidade (Figma):** Montar telas navegáveis da aplicação e apresentar para grupos de alunos, professores e coordenação. Pedir para eles executarem tarefas simples (ex: "encontre sua nota de Engenharia de Software") e coletar feedback.
-2. **Reunião de Review/Homologação dos Requisitos:** Apresentar a documentação refinada para os representantes da coordenação e professores, revisando item por item para aprovação formal (sign-off).
-3. **Testes de Aceitação do Usuário (UAT):** Liberar uma versão *Beta* para um pequeno grupo de alunos e professores testarem por uma semana antes do lançamento oficial para a universidade inteira.
+1. **Protótipos de AltaFidelidade:** Montar telas navegáveis da aplicação e apresentar para grupos de alunos, professores e coordenação. Pedir para eles executarem tarefas simples e coletar feedback.
+2. **Reunião de Homologação dos Requisitos:** Apresentar a documentação refinada para os representantes da coordenação e professores, revisando item por item para aprovação formal.
+3. **Testes :** Liberar uma versão *Beta* para um pequeno grupo de alunos e professores testarem por uma semana antes do lançamento oficial para a universidade inteira.
